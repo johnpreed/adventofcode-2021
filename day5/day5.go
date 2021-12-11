@@ -7,12 +7,6 @@ import (
 	"strings"
 )
 
-// struct of position defined as number and whether it is marked or not
-type position struct {
-	number int
-	marked bool
-}
-
 // coordinate struct
 type coordinate struct {
 	x int
